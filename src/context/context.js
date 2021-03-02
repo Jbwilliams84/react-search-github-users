@@ -50,7 +50,7 @@ const GithubProvider = ({ children }) => {
 						setRepos(repos.value.data);
 					}
 					if (followers.status === status) {
-						setFollowers(repos.value.data);
+						setFollowers(followers.value.data);
 					}
 				})
 				.catch((err) => console.log(err));
